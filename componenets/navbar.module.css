@@ -2,6 +2,14 @@
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.7;
+}
+.circle:hover {
+  opacity: 1;
+}
+.circle:active{
+  transform: scale(0.9);
 }
 .navbar {
   background-color: var(--foreground);
