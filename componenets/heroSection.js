@@ -51,7 +51,7 @@ export default function HeroSection() {
         </div>
         <div>
           <img
-            src="/images/vs-code.png"
+            src="/images/supabase.png"
             alt="tech-stack"
             className={styles.evenImage}
           />
