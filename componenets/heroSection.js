@@ -33,19 +33,41 @@ export default function HeroSection() {
       </section>
       <section className={`${styles.container2} ${styles.childContainer}`}>
         <div>
-          <img src="/images/nextjs.png" alt="tech-stack" className={styles.evenImage}/>
-          <img src="/images/python.png" alt="tech-stack" className={styles.oddImage}/>
-          <img src="/images/react-native.png" alt="tech-stack" className={styles.evenImage}/>
+          <img
+            src="/images/nextjs.png"
+            alt="tech-stack"
+            className={styles.evenImage}
+          />
+          <img
+            src="/images/python.png"
+            alt="tech-stack"
+            className={styles.oddImage}
+          />
+          <img
+            src="/images/react-native.png"
+            alt="tech-stack"
+            className={styles.evenImage}
+          />
         </div>
         <div>
-          <img src="/images/vs-code.png" alt="tech-stack" className={styles.evenImage}/>
-          <img src="/images/github.png" alt="tech-stack" className={styles.oddImage}/>
-          <img src="/images/c++.png" alt="tech-stack" className={styles.evenImage}/>
+          <img
+            src="/images/vs-code.png"
+            alt="tech-stack"
+            className={styles.evenImage}
+          />
+          <img
+            src="/images/github.png"
+            alt="tech-stack"
+            className={styles.oddImage}
+          />
+          <img
+            src="/images/c++.png"
+            alt="tech-stack"
+            className={styles.evenImage}
+          />
         </div>
       </section>
-      <section
-        className={`${styles.container3} ${styles.childContainer}`}
-      >
+      <section className={`${styles.container3} ${styles.childContainer}`}>
         <img src="/images/road.png" alt="roadmap" />
         <div className={`${styles.pointer1} ${styles.pointer}`}>
           <h1>Started journey as a web developer</h1>
@@ -60,9 +82,13 @@ export default function HeroSection() {
           <h1>CTO at Rym Grenergy</h1>
         </div>
       </section>
-      <section
-        className={`${styles.container4} ${styles.childContainer}`}
-      ></section>
+      <section className={`${styles.container4} ${styles.childContainer}`}>
+        <img src="/images/badge1.png" alt="badges" />
+        <img src="/images/badge2.png" alt="badges" />
+        <img src="/images/badge3.png" alt="badges" />
+        <img src="/images/badge4.png" alt="badges" />
+        <img src="/images/badge5.png" alt="badges" />
+      </section>
     </div>
   );
 }
