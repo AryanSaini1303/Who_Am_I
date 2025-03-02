@@ -45,7 +45,21 @@ export default function HeroSection() {
       </section>
       <section
         className={`${styles.container3} ${styles.childContainer}`}
-      ></section>
+      >
+        <img src="/images/road.png" alt="roadmap" />
+        <div className={`${styles.pointer1} ${styles.pointer}`}>
+          <h1>Started journey as a web developer</h1>
+          <div></div>
+        </div>
+        <div className={`${styles.pointer2} ${styles.pointer}`}>
+          <div></div>
+          <h1>Worked on freelance projects</h1>
+        </div>
+        <div className={`${styles.pointer3} ${styles.pointer}`}>
+          <div></div>
+          <h1>CTO at Rym Grenergy</h1>
+        </div>
+      </section>
       <section
         className={`${styles.container4} ${styles.childContainer}`}
       ></section>
